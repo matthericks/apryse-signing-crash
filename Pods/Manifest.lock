@@ -1,0 +1,22 @@
+PODS:
+  - PDFTron (10.4.0.82780)
+  - PDFTronTools (10.4.0.82780):
+    - PDFTron
+
+DEPENDENCIES:
+  - PDFTron (from `https://www.pdftron.com/downloads/ios/cocoapods/xcframeworks/pdftron/latest.podspec`)
+  - PDFTronTools (from `https://www.pdftron.com/downloads/ios/cocoapods/xcframeworks/pdftron-tools/latest.podspec`)
+
+EXTERNAL SOURCES:
+  PDFTron:
+    :podspec: https://www.pdftron.com/downloads/ios/cocoapods/xcframeworks/pdftron/latest.podspec
+  PDFTronTools:
+    :podspec: https://www.pdftron.com/downloads/ios/cocoapods/xcframeworks/pdftron-tools/latest.podspec
+
+SPEC CHECKSUMS:
+  PDFTron: d5cc519d40a44ee14cdb2955150f386568c58866
+  PDFTronTools: 6ce88b66897a94e1f161e9294fcffd3ab392f0c0
+
+PODFILE CHECKSUM: c3c58404011e698255de726f8647cb9e37a4980d
+
+COCOAPODS: 1.12.1

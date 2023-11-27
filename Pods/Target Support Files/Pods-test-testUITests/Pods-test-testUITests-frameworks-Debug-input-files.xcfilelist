@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-test-testUITests/Pods-test-testUITests-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PDFTron/PDFNet.framework/PDFNet
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PDFTronTools/Tools.framework/Tools

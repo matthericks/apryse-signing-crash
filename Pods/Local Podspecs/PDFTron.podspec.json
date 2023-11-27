@@ -1,0 +1,43 @@
+{
+  "name": "PDFTron",
+  "version": "10.4.0.82780",
+  "homepage": "https://pdftron.com",
+  "authors": {
+    "PDFNet": "support@pdfnet.com"
+  },
+  "license": {
+    "type": "Commercial",
+    "file": "PDFNet.xcframework/LICENSE"
+  },
+  "summary": "The complete PDF toolkit.",
+  "description": "The complete PDF toolkit.",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://pdftron.s3.amazonaws.com/downloads/ios/cocoapods/xcframeworks/pdftron/10.4.0.82780.zip"
+  },
+  "preserve_paths": "PDFNet.xcframework",
+  "vendored_frameworks": "PDFNet.xcframework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/PDFTron/**\""
+  },
+  "frameworks": [
+    "QuartzCore",
+    "CoreText",
+    "CoreMedia",
+    "MediaPlayer",
+    "AVFoundation",
+    "CoreGraphics",
+    "Foundation",
+    "MobileCoreServices",
+    "SystemConfiguration",
+    "UIKit",
+    "CoreImage"
+  ],
+  "requires_arc": true
+}
